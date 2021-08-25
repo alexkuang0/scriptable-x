@@ -20,3 +20,9 @@ npm install
 ```bash
 npm run build
 ```
+
+## LICENSE
+
+MIT License
+
+Copyright (c) 2021 Alex Kuang
