@@ -1,0 +1,33 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/scriptable-ios': ^1.6.3
+  esbuild-wasm: ^0.12.22
+  lodash-es: ^4.17.21
+
+dependencies:
+  '@types/scriptable-ios': registry.nlark.com/@types/scriptable-ios/1.6.3
+  lodash-es: 4.17.21
+
+devDependencies:
+  esbuild-wasm: registry.nlark.com/esbuild-wasm/0.12.22
+
+packages:
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha1-Q+YmxG5lkbd1C+srUBFzkMYJ4+4=, tarball: lodash-es/download/lodash-es-4.17.21.tgz}
+    dev: false
+
+  registry.nlark.com/@types/scriptable-ios/1.6.3:
+    resolution: {integrity: sha1-gW+GUQYog/Kz+eTDzcCa11Xx2CA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@types/scriptable-ios/download/@types/scriptable-ios-1.6.3.tgz}
+    name: '@types/scriptable-ios'
+    version: 1.6.3
+    dev: false
+
+  registry.nlark.com/esbuild-wasm/0.12.22:
+    resolution: {integrity: sha1-s5o31YbUMjq7sVXtwfgFkYPtBmA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/esbuild-wasm/download/esbuild-wasm-0.12.22.tgz}
+    name: esbuild-wasm
+    version: 0.12.22
+    engines: {node: '>=8'}
+    hasBin: true
+    dev: true
