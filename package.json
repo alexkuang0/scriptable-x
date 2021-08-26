@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "esbuild-wasm": "^0.12.22"
+  },
+  "dependencies": {
+    "@types/scriptable-ios": "^1.6.3",
+    "lodash-es": "^4.17.21"
   }
 }
